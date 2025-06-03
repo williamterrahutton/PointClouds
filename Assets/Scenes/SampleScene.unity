@@ -205,8 +205,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.17384683, y: 0.57283175, z: -0.12586494, w: -0.7910747}
+  m_LocalPosition: {x: 2178.9934, y: 2724.5977, z: -5488.871}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -504,13 +504,19 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0.01
+        m_Name: MaskTolerance
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array: []
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 0, z: 1, w: 0}
+        m_Name: ColorToMask
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -522,9 +528,36 @@ VisualEffect:
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: -2231058418007342408, guid: e7fb373cda39b4332ba6ebca158b5d14, type: 3}
+        m_Name: ColorMap
+        m_Overridden: 1
+      - m_Value: {fileID: 6918954641851045129, guid: e7fb373cda39b4332ba6ebca158b5d14, type: 3}
+        m_Name: PositionMap
+        m_Overridden: 1
     m_Bool:
-      m_Array: []
+      m_Array:
+      - m_Value: 0
+        m_Name: EnableColorMask
+        m_Overridden: 0
+      - m_Value: 0
+        m_Name: Bool 1
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Bool 2
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Bool
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Bool 3
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Bool 4
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Bool 5
+        m_Overridden: 1
 --- !u!4 &1101504632
 Transform:
   m_ObjectHideFlags: 0
